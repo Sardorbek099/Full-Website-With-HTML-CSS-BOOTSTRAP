@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+}
+
+.back-end {
+    background-image: url('../images/backend.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.front-end {
+    background-image: url('../images/frontend.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    transition: 0.5s;
+}
+
+nav {
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+}
